@@ -1,0 +1,16 @@
+class test(object):
+    
+    def __init__(self, name,time):
+        self.name = name
+        self.time = time
+    
+
+    def get_name(self):
+        print(self.name)
+
+    def get_time(self):
+        return self.time
+
+T = test("leela",20)
+T.get_name()
+print(T.get_time())
