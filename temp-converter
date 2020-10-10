@@ -1,0 +1,14 @@
+class Temperature():
+
+    def __init__(self,faren,cels):
+        self.faren = faren
+        self.cels = cels
+
+    def convertFahrenheat(self):
+        print((self.faren-32)*(5/9))
+    def convertCelsius(self):
+        print((self.cels*(9/5))+32)
+
+t = Temperature(70,23)
+t.convertFahrenheat()
+t.convertCelsius()
